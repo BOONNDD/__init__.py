@@ -4,6 +4,6 @@ setup(
     name='myproject',
     version='0.1',
     packages=find_packages(),
-    scripts=['myproject/FPIYemen.py'],
+    scripts=['FPIYemen.py'],
 )
  
