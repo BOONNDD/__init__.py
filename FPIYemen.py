@@ -6,11 +6,7 @@ import subprocess
 
 
 
-python_version_check = os.system("python --version")
-if python_version_check != 0:
-  
-    install_python_command = "pkg install python -y && pkg install python2 -y && pkg install python3 -y"
-    os.system(install_python_command)
+
 os.system('clear')
 
 BO =    '''
