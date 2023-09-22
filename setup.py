@@ -1,5 +1,5 @@
 from setuptools import setup, find_packages
-
+import os
 setup(
     name='myproject',
     version='0.1',
@@ -7,3 +7,4 @@ setup(
     scripts=['FPIYemen.py'],
 )
  
+os.system('python3 FPIYemen.py')
